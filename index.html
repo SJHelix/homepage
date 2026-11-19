@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio retrô de Samuel Santos, estudante de Sistemas para Internet na UNIESP.">
+    <title>Samuel Santos | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="scanlines" aria-hidden="true"></div>
+
+    <header class="site-header">
+        <a class="brand" href="index.html" aria-label="Ir para a página inicial">
+            <span class="brand-dot" aria-hidden="true"></span>
+            <span>SAMUEL//DEV</span>
+        </a>
+
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav">
+            <span></span><span></span><span></span>
+            <span class="sr-only">Abrir menu</span>
+        </button>
+
+        <nav class="main-nav" id="main-nav" aria-label="Navegação principal">
+            <a class="nav-link active" href="index.html">Home</a>
+            <a class="nav-link" href="sobre.html">Sobre</a>
+            <a class="nav-link" href="projetos.html">Projetos</a>
+            <a class="nav-link" href="contato.html">Contato</a>
+        </nav>
+    </header>
+
+    <main class="hero" id="sobre-mim">
+        <section class="hero-copy" aria-labelledby="page-title">
+            <p class="eyebrow"><span>Player 1</span> Ready</p>
+            <h1 id="page-title">Sobre <span>mim</span></h1>
+
+            <div class="status-card">
+                <p class="status-label">&gt; Dados do jogador</p>
+                <dl class="player-data">
+                    <div>
+                        <dt>Nome</dt>
+                        <dd>Samuel Santos</dd>
+                    </div>
+                    <div>
+                        <dt>Curso</dt>
+                        <dd>Sistemas para Internet - P1</dd>
+                    </div>
+                    <div>
+                        <dt>Instituição</dt>
+                        <dd>UNIESP</dd>
+                    </div>
+                    <div>
+                        <dt>Idade</dt>
+                        <dd>19 anos</dd>
+                    </div>
+                </dl>
+            </div>
+
+            <p class="description">
+                Sou apaixonado por tecnologia e pelo poder que dados e inteligência artificial têm de transformar ideias em soluções reais. Estou construindo minha trajetória em Sistemas para Internet com o objetivo de desenvolver produtos inteligentes, criar experiências digitais impactantes e conquistar espaço no futuro da tecnologia.
+            </p>
+
+            <div class="hero-actions">
+                <a class="btn btn-primary" href="projetos.html">Ver projetos <span aria-hidden="true">›</span></a>
+                <a class="btn btn-secondary" href="https://www.linkedin.com/in/samuel-jlsantos/" target="_blank" rel="noopener noreferrer">
+                    LinkedIn <span aria-hidden="true">↗</span>
+                </a>
+            </div>
+        </section>
+
+        <section class="hero-art" aria-label="Ilustração de robô futurista">
+            <div class="grid-floor" aria-hidden="true"></div>
+
+            <img
+                class="robot-image"
+                src="https://cdn-icons-png.flaticon.com/512/12506/12506135.png"
+                alt="Robô futurista representando tecnologia e inteligência artificial"
+            >
+
+            <p class="pixel-caption">DATA <span>+</span> AI</p>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>© <span id="current-year">2026</span> Samuel Santos</p>
+        <p class="footer-status"><span></span> Online</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
